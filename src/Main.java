@@ -5,6 +5,5 @@ public class Main {
         double weight = 81.2;
         double index = service.calculate(weight, growth);
         System.out.println("Индекс массы тела равен - " + Math.round(index));
-
     }
 }
